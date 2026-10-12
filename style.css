@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #202124;
+}
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background: #e8f0fe;
+}
+
+h1 {
+    font-size: clamp(36px, 7vw, 64px);
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Main sections */
+section {
+    max-width: 1000px;
+    margin: 24px auto;
+    padding: 30px 20px;
+    background: white;
+    border-radius: 12px;
+}
+
+/* Section headings */
+h2 {
+    color: #1a73e8;
+    text-align: center;
+}
+
+/* Event highlight cards */
+article {
+    padding: 18px;
+    margin: 12px 0;
+    background: #f0f4ff;
+    border-radius: 10px;
+}
+
+/* Register button */
+a {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #1a73e8;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+a:hover {
+    background: #1557b0;
+}
+
+/* Mobile screen */
+@media (max-width: 600px) {
+    section {
+        margin: 12px;
+        padding: 20px 15px;
+    }
+
+    header {
+        padding: 50px 15px;
+    }
+}
