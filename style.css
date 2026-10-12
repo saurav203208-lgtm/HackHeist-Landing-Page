@@ -71,3 +71,41 @@ a:hover {
         padding: 50px 15px;
     }
 }
+
+/* Professional section layout */
+section {
+    max-width: 1000px;
+    margin: 24px auto;
+    padding: 30px 20px;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+/* Highlight cards */
+article {
+    padding: 20px;
+    margin: 14px 0;
+    border-radius: 12px;
+    background: #eef4ff;
+    border: 1px solid #d8e5ff;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    color: #1a73e8;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+    section {
+        margin: 12px;
+        padding: 20px 15px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+}
+
